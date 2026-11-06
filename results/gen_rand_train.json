@@ -1,0 +1,16 @@
+{
+ "mode": "rand",
+ "seed": 0,
+ "images": 2000,
+ "seconds": 131.0,
+ "images_per_s": 15.27,
+ "rt_subframes": 4,
+ "boxes_per_class": {
+  "cracker_box": 1954,
+  "sugar_box": 2041,
+  "soup_can": 2001,
+  "mustard_bottle": 1969,
+  "bowl": 2045
+ },
+ "images_without_boxes": 0
+}

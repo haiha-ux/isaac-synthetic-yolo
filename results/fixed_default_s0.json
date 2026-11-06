@@ -1,0 +1,21 @@
+{
+ "name": "fixed_default_s0",
+ "train": "data/fixed_train",
+ "aug": "default",
+ "seed": 0,
+ "epochs": 30,
+ "eval": {
+  "rand_val": {
+   "mAP50": 0.9266,
+   "mAP50-95": 0.8802
+  },
+  "fixed_val": {
+   "mAP50": 0.995,
+   "mAP50-95": 0.9868
+  },
+  "shift_test": {
+   "mAP50": 0.7495,
+   "mAP50-95": 0.5804
+  }
+ }
+}

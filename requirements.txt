@@ -1,0 +1,5 @@
+# training / eval venv (Python 3.10). Isaac Sim 5.1.0 brings its own Python for gen_data.py.
+torch==2.11.0+cu128      # pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torchvision==0.26.0+cu128
+ultralytics==8.4.203
+pytest

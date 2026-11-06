@@ -1,0 +1,21 @@
+{
+ "name": "fixed_off_s0",
+ "train": "data/fixed_train",
+ "aug": "off",
+ "seed": 0,
+ "epochs": 30,
+ "eval": {
+  "rand_val": {
+   "mAP50": 0.9033,
+   "mAP50-95": 0.8335
+  },
+  "fixed_val": {
+   "mAP50": 0.995,
+   "mAP50-95": 0.9815
+  },
+  "shift_test": {
+   "mAP50": 0.629,
+   "mAP50-95": 0.4607
+  }
+ }
+}

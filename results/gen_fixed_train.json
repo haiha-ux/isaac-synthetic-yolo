@@ -1,0 +1,16 @@
+{
+ "mode": "fixed",
+ "seed": 3,
+ "images": 2000,
+ "seconds": 121.4,
+ "images_per_s": 16.48,
+ "rt_subframes": 4,
+ "boxes_per_class": {
+  "cracker_box": 2010,
+  "sugar_box": 1995,
+  "soup_can": 1985,
+  "mustard_bottle": 1935,
+  "bowl": 1964
+ },
+ "images_without_boxes": 0
+}

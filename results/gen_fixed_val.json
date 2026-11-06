@@ -1,0 +1,16 @@
+{
+ "mode": "fixed",
+ "seed": 4,
+ "images": 300,
+ "seconds": 18.3,
+ "images_per_s": 16.37,
+ "rt_subframes": 4,
+ "boxes_per_class": {
+  "cracker_box": 296,
+  "sugar_box": 309,
+  "soup_can": 301,
+  "mustard_bottle": 289,
+  "bowl": 282
+ },
+ "images_without_boxes": 0
+}

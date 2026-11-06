@@ -1,0 +1,21 @@
+{
+ "name": "rand_off_s1",
+ "train": "data/rand_train",
+ "aug": "off",
+ "seed": 1,
+ "epochs": 30,
+ "eval": {
+  "rand_val": {
+   "mAP50": 0.9929,
+   "mAP50-95": 0.9579
+  },
+  "fixed_val": {
+   "mAP50": 0.995,
+   "mAP50-95": 0.9797
+  },
+  "shift_test": {
+   "mAP50": 0.9368,
+   "mAP50-95": 0.8289
+  }
+ }
+}

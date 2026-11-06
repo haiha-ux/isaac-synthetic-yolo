@@ -1,0 +1,8 @@
+data/
+runs/
+venv/
+weights/
+*.pt
+*.cache
+__pycache__/
+.pytest_cache/
